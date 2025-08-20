@@ -1,96 +1,66 @@
-Sales and Profitability Analysis Power BI Dashboard
-This repository contains a Power BI dashboard that analyzes sales and profitability data from a variety of sources. The dashboard provides a comprehensive overview of the business's performance, allowing users to drill down into specific areas to identify trends and opportunities.
+# 📊 Sales Data Analysis Project
 
-📖 Table of Contents
-📖 Table of Contents
+## Table of Contents
+- [Project Overview](#-project-overview)  
+- [Data Sources](#-data-sources)  
+- [Tools](#️-tools)  
+- [Analysis Objectives](#-analysis-objectives)  
+- [Visualizations](#-visualizations)  
+- [Key Findings](#-key-findings)  
+- [Recommendations](#-recommendations)  
 
-🚀 Introduction
+---
 
-❓ Key Business Questions
+## 🔎 Project Overview
+This project involves analyzing sales data to uncover trends, measure performance, and derive actionable insights.  
+The goal is to understand key aspects of the business, such as customer behavior, market performance, and profitability, to support **data-driven decision-making**.
 
-📊 Data Sources
+---
 
-🛠️ How to Use
+## 💾 Data Sources
+The analysis is based on a set of relational data files:
 
-️ Data Model
+- `transactions.csv`: Contains the core sales transaction records.  
+- `sales profit 4.csv`: Includes detailed sales data with profit margins and cost price.  
+- `customers.csv`: A list of all customers and their types (e.g., Brick & Mortar, E-Commerce).  
+- `markets.csv`: Information on the different market locations.  
+- `date.csv`: A table to provide detailed date and time dimensions for analysis.  
 
-📈 Dashboard Components
+---
 
-📄 Disclaimer
+## 🛠️ Tools
+- **Power BI** → Creating interactive dashboards and visualizations.  
+- **SQL/Database** → Data storage, querying, and joining datasets.  
+- **Python/R** → Data cleaning, transformation, and advanced statistical analysis.  
 
-🚀 Introduction
-This Power BI dashboard is designed to provide a clear and concise overview of the company's sales and profitability. It allows users to:
+---
 
-Track key performance indicators (KPIs) such as sales, profit, and profit margin.
+## 🎯 Analysis Objectives
+- Analyze overall sales trends and profitability over time.  
+- Identify top-performing markets and customer segments.  
+- Determine which products contribute most to sales and profit.  
+- Understand the performance difference between **E-Commerce** and **Brick & Mortar** customer types.  
 
-Analyze sales and profitability by customer, product, market, and date.
+---
 
-Identify the most and least profitable products and customers.
+## 📈 Visualizations
+An **interactive dashboard** was created in Power BI to explore the sales data dynamically.  
 
-Understand the impact of discounts and promotions on profitability.
+Example visualization:  
+*Sales trends over time to identify seasonal patterns and growth.*  
 
-Monitor sales performance over time.
+---
 
-❓ Key Business Questions
-The dashboard is designed to answer the following key business questions:
+## 💡 Key Findings
+*(To be filled after analysis — example placeholders below)*  
 
-What are the company's overall sales and profitability?
+- The **Delhi NCR** market generated the highest revenue in the last fiscal year.  
+- The **E-Commerce** customer segment shows a **25% higher profit margin** compared to Brick & Mortar stores.  
 
-Which products and customers are the most and least profitable?
+---
 
-What is the impact of discounts and promotions on profitability?
+## ✅ Recommendations
+*(To be finalized after findings — example placeholders below)*  
 
-How does sales performance vary by region and market?
-
-What are the sales and profitability trends over time?
-
-Who are the top customers by sales and profit?
-
-What is the sales and profitability breakdown by customer type (e.g., Brick & Mortar vs. E-Commerce)?
-
-📊 Data Sources
-The dashboard is based on the following data sources:
-
-sales profit 4.csv: This file contains detailed information about each sale, including the product, customer, market, sales quantity, sales amount, profit margin, and cost price.
-
-transactions.csv: This file contains the raw transaction data.
-
-customers.csv: This file contains information about each customer, including their name and type (e.g., Brick & Mortar, E-Commerce).
-
-markets.csv: This file contains information about each market, including the city and zone.
-
-products.csv: This file contains information about each product, including its type (e.g., Own Brand, Distribution).
-
-date.csv: This file contains date information that can be used for time-based analysis.
-
-sales tra.csv: This file contains comprehensive sales transaction data, including customer, product, market, and date information.
-
-🛠️ How to Use
-To use the dashboard, simply open the Power BI file and interact with the visuals. You can use the filters and slicers to drill down into specific areas of the data. For example, you can filter the data by date, customer, product, or market.
-
-️ Data Model
-The data is modeled using a star schema, with the sales profit 4.csv and sales tra.csv files as the fact tables and the other files as the dimension tables. The tables are related as follows:
-
-sales profit 4.csv and sales tra.csv are related to customers.csv on customer_code.
-
-sales profit 4.csv and sales tra.csv are related to products.csv on product_code.
-
-sales profit 4.csv and sales tra.csv are related to markets.csv on market_code.
-
-sales profit 4.csv and sales tra.csv are related to date.csv on order_date.
-
-📈 Dashboard Components
-The dashboard consists of the following pages:
-
-Overview: This page provides a high-level overview of the company's sales and profitability.
-
-Customer Analysis: This page allows you to analyze sales and profitability by customer.
-
-Product Analysis: This page allows you to analyze sales and profitability by product.
-
-Market Analysis: This page allows you to analyze sales and profitability by market.
-
-Time Series Analysis: This page allows you to analyze sales and profitability over time.
-
-📄 Disclaimer
-The data in this dashboard is for demonstration purposes only and should not be used for making real-world business decisions.
+- Increase marketing spend in the **top-performing North zone** to maximize revenue.  
+- Develop a **targeted promotion strategy** for high-margin products within the E-Commerce channel.  
